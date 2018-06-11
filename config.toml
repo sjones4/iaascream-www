@@ -1,0 +1,35 @@
+baseurl                 = "https://www.iaascream.cloud/"
+languageCode            = "en-us"
+title                   = "iaascream.cloud"
+theme                   = "sam"
+pygmentsStyle           = "manni"           # https://help.farbox.com/pygments.html
+pygmentsCodefences      = true
+
+[params]
+    dateform            = "Mon Jan 02, 2006"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+    favicon             = "/iaascream_228.png"
+    homepage            = "main"                        # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = true                          # Allow links to the full size images
+    footerText          = "iaascream.cloud, quietly"
+
+# Metadata
+    description         = "everyone loves iaascream"    # Max 160 characters show in search results
+    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+
+[[params.mainMenu]]
+    link = "/writing"
+    text = "writing"
+
+[[params.mainMenu]]
+    link = "/working"
+    text = "working"
+
+[[params.mainMenu]]
+    link = "/info"
+    text = "who likes iaascream?"
+
+
+
