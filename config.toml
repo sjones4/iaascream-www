@@ -20,10 +20,6 @@ pygmentsCodefences      = true
     primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
 
 [[params.mainMenu]]
-    link = "/writing"
-    text = "writing"
-
-[[params.mainMenu]]
     link = "/working"
     text = "working"
 
